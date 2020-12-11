@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-width: 300px;
+    min-height: 90px;
+    padding: 5px;
+    background: rgb(223, 230, 233);
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+    font-weight: 300;
+}
+
+h2 {
+    display: flex;
+    margin: 0;
+    line-height: 2;
+    font-weight: lighter;
+}
+
+.logo {
+    margin: 3px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_box {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_url, .close_input, .accept_input, .remove_url {
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.add_url:hover, .close_input:hover, .accept_input:hover, .remove_url:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.close_input, .accept_input {
+    display: none;
+}
+
+.input_url {
+    display: none;
+    height: 30px;
+    padding-left: 3px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.input_url:focus {
+    box-shadow: 0 0 0 0.1rem rgba(0,0,0,0.12);
+}
+
+.url_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.url_div {
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    background: rgb(177 209 210);
+    border-radius: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.remove_url {
+    height: 15px;
+}
