@@ -30,4 +30,4 @@ This chrome extension allows you to focus on productivity.
 2. Enable Developer Mode by clicking the toggle switch next to **Developer mode**.
 3. A small menu reveils. Click on **Load unpacked**, and select the extension directory (productivify).
 4. Ta-da! you have loaded and enabled the extension. A generic toolbar icon with a letter 'P' will be created for the extension.
-5. To pin the extension on the toolbar, just click on a 'puzzle piece (outie)' icon the toolbar, and pin it.
+5. To pin the extension on the toolbar, just click on a 'puzzle piece (outie)' icon on the toolbar, and pin it.
